@@ -43,8 +43,9 @@ nav>ul>li a {
 /*Side Menu*/
 
 .mainContent ul{
-    padding-inline-start: 2px;
-    margin-right: 1.5rem;
+    padding-inline-start: 0;
+    margin-right: 0;
+    padding: .5rem;
 }
 
 .mainContent ul>a>li{
@@ -84,6 +85,7 @@ nav>ul>li a {
 footer {
     display: flex;
     flex-direction: column;
+    align-items: center;  
 }
 
 footer > p, footer > address{
@@ -109,8 +111,10 @@ footer > p, footer > address{
     justify-content: space-between;
     margin-bottom: 10px;
     flex-wrap: wrap;
+    align-items: center;
 }
 .leftmenu{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
