@@ -71,6 +71,7 @@ nav>ul>li a {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*Main Content*/
@@ -88,4 +89,12 @@ footer {
 
 footer > p, footer > address{
     margin: .5rem 0;
+}
+
+/*Test*/
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: 5px 10px;
 }
