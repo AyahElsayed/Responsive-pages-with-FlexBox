@@ -79,7 +79,7 @@ nav>ul>li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     
 }
 
@@ -123,7 +123,7 @@ nav>ul>li a {
 .pieGallery{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    flex-basis: 60%;
     flex-wrap: wrap;
     align-content: flex-start;
 }
@@ -175,10 +175,7 @@ footer > p, footer > address{
     .leftmenu{
         order: 1;
     }
-    /* .main{
+    .main , .pieGallery{
         flex-basis: 90%!important;
     }
-    .pieGallery{
-        flex-basis: 90%!important;
-    } */
 }
