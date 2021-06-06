@@ -79,7 +79,8 @@ nav>ul>li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    
 }
 
 .pageTitle{
@@ -113,6 +114,10 @@ nav>ul>li a {
 
 .pieRow h5, .pieRow p{
     margin: 0;
+}
+
+.pieRow > small{
+    flex-shrink: 3;
 }
 
 .pieGallery{
