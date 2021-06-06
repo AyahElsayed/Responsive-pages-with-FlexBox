@@ -129,6 +129,9 @@ nav>ul>li a {
     flex-wrap: wrap;
     align-content: flex-start;
 }
+.pieGallery > .pieCard:nth-child(1){
+    flex-basis: 100%;
+}
 
 .pieCard{
     display: flex;
