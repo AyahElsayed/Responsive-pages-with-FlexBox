@@ -142,6 +142,22 @@ nav>ul>li a {
     margin: .2rem 0;
 }
 
+.pieCard > img{
+    align-self: center;
+}
+
+#promos{
+    align-self: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    border-radius: 25px;
+}
+
+#promos > h3{
+    margin: 0;
+}
+
 .cardRow{
     display: flex;
     flex-direction: row;
